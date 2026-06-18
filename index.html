@@ -24,17 +24,19 @@
             font-style: italic;
             direction: rtl;
         }
+
         /* Mengunci background gambar arab agar mengecil (contain), posisinya agak ke bawah, dan sisa layarnya putih */
 .hero-wrapper {
     position: relative;
     overflow: hidden;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.55)), url('gambar.png') no-repeat center 65%;
     background-size: contain; /* Membuat tulisan arab mengecil & kelihatan full utuh */
-    background-color:  #0b633d; /* Sisa layar di luar gambar tetap putih bersih */
+    background-color: #0b633d; /* Sisa layar di luar gambar tetap putih bersih */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
         .wave-bottom { border-bottom-left-radius: 50% 20px; border-bottom-right-radius: 50% 20px; }
         @keyframes fadeInUp { 0% { opacity: 0; transform: translateY(30px); } 100% { opacity: 1; transform: translateY(0); } }
         .animate-fade-up { opacity: 0; animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards; }
@@ -54,20 +56,20 @@
                     <a href="index.html" class="text-yellow-400 border-b-2 border-yellow-400 font-semibold pb-1">Home</a>
                     <a href="profil.html" class="hover:text-yellow-400 transition pb-1">Profil</a>
                     <div class="relative group cursor-pointer flex items-center space-x-1 pb-1">
-                    <span class="hover:text-yellow-400 transition">Pendidikan</span>
-                    <svg class="w-4 h-4 text-white/90 group-hover:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                    </svg>
-                    
-                    <div class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-56 bg-white border border-gray-100 rounded-md shadow-lg py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                        <a href="madin.html" class="block px-4 py-2.5 text-xs text-gray-700 hover:bg-gray-100 hover:text-brand-green">
-                            Madrasah Diniyah (Madin)
-                        </a>
-                        <a href="tahfidz.html" class="block px-4 py-2.5 text-xs text-gray-700 hover:bg-gray-100 hover:text-brand-green">
-                            Tahfidzul Qur'an
-                        </a>
+                        <span class="hover:text-yellow-400 transition">Pendidikan</span>
+                        <svg class="w-4 h-4 text-white/90 group-hover:rotate-180 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                        
+                        <div class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-56 bg-white border border-gray-100 rounded-md shadow-lg py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                            <a href="madin.html" class="block px-4 py-2.5 text-xs text-gray-700 hover:bg-gray-100 hover:text-brand-green">
+                                Madrasah Diniyah (Madin)
+                            </a>
+                            <a href="tahfidz.html" class="block px-4 py-2.5 text-xs text-gray-700 hover:bg-gray-100 hover:text-brand-green">
+                                Tahfidzul Qur'an
+                            </a>
+                        </div>
                     </div>
-                </div>
                     <a href="kegiatan.html" class="hover:text-yellow-400 transition pb-1">Kegiatan</a>
                     <a href="galeri.html" class="hover:text-yellow-400 transition pb-1">Galeri</a>
                     <a href="kontak.html" class="hover:text-yellow-400 transition pb-1">Kontak</a>
@@ -87,7 +89,6 @@
                     <span class="text-xs font-bold text-white/40 uppercase tracking-wider block">Pendidikan</span>
                     <a href="madin.html" class="block text-xs hover:text-yellow-400 py-1">Madrasah Diniyah (Madin)</a>
                     <a href="tahfidz.html" class="block text-xs hover:text-yellow-400 py-1">Tahfidzul Qur'an</a>
-       
                 </div>
                 <a href="kegiatan.html" class="block hover:text-yellow-400 py-1">Kegiatan</a>
                 <a href="galeri.html" class="block hover:text-yellow-400 py-1">Galeri</a>
@@ -128,6 +129,7 @@
 
             </div>
         </section>
+
     </div>
 
     <script>
